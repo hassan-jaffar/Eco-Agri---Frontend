@@ -1,0 +1,60 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+  .homecentered {
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  label{
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  input{
+    height: 50px;
+  }
+
+  .br{
+    border-radius: 25px;
+  }
+
+  .loginbtn{
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    font-size: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+  body{
+    overflow-x: hidden !important;
+    /* overflow-y: hidden !important; */
+  }
+
+  .dropdown-toggle::after {
+    content: none;
+}
+
+.homeimg{
+    width: 50%;
+    height: 80%;
+    align-self: center;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
